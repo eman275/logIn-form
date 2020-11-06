@@ -17,3 +17,4 @@ inputs.forEach(input =>{
     input.addEventListener('focus',focusFunc);
     input.addEventListener('blur',blurFunc);
 });
+document.addEventListener('contextmenu' , event => event.preventDefault());
